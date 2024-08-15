@@ -35,7 +35,7 @@ def entrenamiento(a):
     n,m=xls.shape
     excel=np.zeros((n,m))
     Y=np.array(xls2)
-    
+
     excel=np.array(xls)
     X=np.zeros((n,m))
     for i in range(n):
@@ -214,11 +214,6 @@ def mercado(txt,a):
             txt=txt
             playsound(a+'Okey.mp3')
 
-#        else:
-#            txt=txt
-#    else:
-#        txt=txt
-#            
     return txt
         
 def alarma(a):
